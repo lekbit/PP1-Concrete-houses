@@ -82,3 +82,52 @@ header {
 }
 
 /* /Header */
+
+/* Main image */
+#main_image {
+    background-image: url('../images/sharp-exterior-1-scaled-g.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 60%;
+    width: 100%;
+    /* overflow: hidden; */
+    height: 300px;
+    position: relative;
+}
+
+#main_image_box {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    top: 248px;
+    background-color: rgba(147, 78, 78, 0.7);
+}
+
+#main_image_text {
+    padding: 0 20px;
+    height: 100%;
+    font-family: Oswald, sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-text-1 {
+    color: white;
+    width: 100%;
+    font-size: 200%;
+    text-align: start;
+    text-transform: uppercase;
+}
+
+#main-text-2 {
+    width: 100%;
+    font-size: 200%;
+    text-transform: uppercase;
+    text-align: end;
+}
+
+/* /Main image */
