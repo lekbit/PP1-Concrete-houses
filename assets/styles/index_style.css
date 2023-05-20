@@ -1,0 +1,84 @@
+/* Pre-settings */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Lato, sans-serif;
+}
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* /Pre-settings */
+
+/* Header */
+header {
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+
+#logo {
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+    font-size: 150%;
+}
+
+#logo h1 {
+    color: black;
+}
+
+/* navbar */
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navbar li {
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+#navbar a {
+    margin: 0 20px;
+    color: black;
+}
+
+#navbar li:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.nav-button-active {
+    border-bottom: 1px solid black;
+}
+
+/* /Header */
