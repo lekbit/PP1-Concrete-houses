@@ -131,3 +131,51 @@ header {
 }
 
 /* /Main image */
+
+/* Feathures description */
+#feathures-description {
+    margin-top: 70px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feathures {
+    width: 600px;
+    margin: 0 50px;
+    margin-bottom: 50px;
+    border-bottom: 3px solid black;
+
+}
+
+.feathures p {
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+.feathures_line {
+    display: flex;
+}
+
+.feathures_line span {
+    width: 100px;
+}
+
+.feathures_line p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feathures h2 {
+    margin-bottom: 10px;
+}
+
+.fa-stack {
+    display: block;
+    width: 200px;
+    font-size: 40px;
+    border-radius: 50%;
+}
+
+/* /Feathures description */
