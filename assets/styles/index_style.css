@@ -179,3 +179,42 @@ header {
 }
 
 /* /Feathures description */
+
+/* Photo examples */
+#photo_examples {
+    text-align: center;
+}
+
+#photo_examples_set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block {
+    margin: 30px 30px;
+    width: 400px;
+    height: 350px;
+    box-shadow: 20px 20px 2px gray;
+    border: 1px solid black;
+}
+
+#house_block_1 {
+    background-image: url('../images/1.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#house_block_2 {
+    background-image: url('../images/2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#house_block_3 {
+    background-image: url('../images/3.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* /Photo examples */
