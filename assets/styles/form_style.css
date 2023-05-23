@@ -80,6 +80,9 @@ header {
 }
 
 /* main */
+main {
+    flex: 1 0 auto;
+}
 
 .form-section {
     clear: left;
@@ -89,7 +92,7 @@ header {
     height: 900px;
 }
 
-.signup-form{
+.signup-form {
     margin: 50px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -99,17 +102,18 @@ header {
     padding: 30px;
 }
 
-.signup-form h2{
+.signup-form h2 {
     color: #fafafa;
-    margin-bottom: 20px;;
+    margin-bottom: 20px;
+    ;
 }
 
-.signup-form form{
+.signup-form form {
     color: #fafafa;
     margin-bottom: 20px;
 }
 
-.text-input{
+.text-input {
     color: #fafafa;
     background: transparent;
     width: 100%;
@@ -119,11 +123,11 @@ header {
     border-radius: 2px;
 }
 
-.text-input:hover{
+.text-input:hover {
     border-color: #f16c6b;
 }
 
-.join-button{
+.join-button {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px 15px 32px;
@@ -134,7 +138,7 @@ header {
     display: block;
 }
 
-.join-button:hover{
+.join-button:hover {
     background-color: #fafafa;
     color: #f16c6b;
 }
