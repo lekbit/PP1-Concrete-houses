@@ -312,6 +312,92 @@ header {
 
 /* /Form */
 
+/* Gallery page */
+.grid_gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-auto-flow: dense;
+}
+
+.gallery_item {
+    display: block;
+}
+
+.gallery_item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* /Gallery page */
+
+/* Form page */
+.signup-form {
+    margin: 50px 0 0 50px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: relative;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.signup-form form {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    color: #fafafa;
+    background: transparent;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+#s_message {
+    min-height: 100px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+
+/* /Form page */
+
+/* Thank you page */
+#thank_form{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* /Thank you page */
+
+/* Footer */
 footer {
     margin-top: 40px;
     background-color: #AAAD9A;
@@ -326,6 +412,8 @@ footer {
 .social-networks li {
     padding: 15px 50px;
 }
+
+/* /Footer */
 
 @media screen and (max-width: 1100px) {
     header {
